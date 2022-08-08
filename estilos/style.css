@@ -46,6 +46,7 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-julia-kuzenkov-1974596.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -53,5 +54,14 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
+    display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+  font-size: 2em;
+}
+
+div#formulario > p {
+    font-size: 1.2em;
 }
